@@ -31,12 +31,13 @@ header {
 }
 
 .headerButton{
-    height: 50px;
-    width: 100px;
+    height: 80%;
+    width: 100%;
     display:  flex;
     flex-direction: row;
-    background-color: rgb(21, 87, 116);
+    background-color: rgb(100, 140, 158);
     border-radius: 10px;
+    border-color:hsl(from blue h s l)
 }
 
 
