@@ -1,4 +1,54 @@
-/* Header CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins-regular';
+    /*background-color: #99c3c493;*/
+    background-color: rgb(175, 210, 240);
+    line-height: 1.8;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#container{
+    max-width: 430px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.form-wrap{
+    background-color: #99c3c476;
+    border-radius: 05px;
+    padding: 15px 25px;
+    color:rgb(32, 116, 172);
+    border-top: 4px solid rgb(112, 168, 231);
+}
+
+.form-wrap h1,
+.form-wrap p{
+    text-align: center;
+}
+
+.form-wrap .form-group{
+    margin-text:15px;
+}
+
+.form-wrap .form-group label{
+    display: block;
+    
+}
+
+/* 
+
 header {
     background-color: #4ecbcf;
     width: 100%;
@@ -43,3 +93,4 @@ header {
 
 
 
+ */
